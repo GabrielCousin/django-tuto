@@ -7,15 +7,32 @@ $ brew install uv
 $ uv pip install Django
 ```
 
-## Start
+## Commands
 
 ```sh
-$ python manage.py runserver
+# Start server
+$ uv run python manage.py runserver
+
+# Migrate database
+$ uv run python manage.py migrate
+
+# Create database migration
+$ uv run python manage.py makemigrations [app]
+
+# Get SQL for a given migration
+$ uv run python manage.py sqlmigrate [app] [migration_name]
+
+# Open a Django shell
+$ uv run python manage.py shell
 ```
 
 ## Gotchas
 
 - [urls.py](https://docs.djangoproject.com/en/6.1/topics/http/urls/)
+
+## Out of scope
+
+- [Setup other DB](https://docs.djangoproject.com/en/6.1/topics/install/#get-your-database-running)
 
 ## WTF?
 
