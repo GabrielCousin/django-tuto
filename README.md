@@ -29,6 +29,7 @@ $ uv run python manage.py shell
 ## Gotchas
 
 - [urls.py](https://docs.djangoproject.com/en/6.1/topics/http/urls/)
+- [Django shortcut functions](https://docs.djangoproject.com/en/6.1/topics/http/shortcuts/)
 
 ## Out of scope
 
