@@ -30,6 +30,7 @@ $ uv run python manage.py shell
 
 - [urls.py](https://docs.djangoproject.com/en/6.1/topics/http/urls/)
 - [Django shortcut functions](https://docs.djangoproject.com/en/6.1/topics/http/shortcuts/)
+- [Built-in template tags and filters](https://docs.djangoproject.com/en/6.1/ref/templates/builtins/)
 
 ## Out of scope
 
