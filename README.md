@@ -24,6 +24,9 @@ $ uv run python manage.py sqlmigrate [app] [migration_name]
 
 # Open a Django shell
 $ uv run python manage.py shell
+
+# Run tests
+$ uv run python manage.py test [app]
 ```
 
 ## Gotchas
@@ -39,3 +42,4 @@ $ uv run python manage.py shell
 ## WTF?
 
 - [WSGI](https://wsgi.readthedocs.io/en/latest/what.html)
+- Testing: assert versus self.assert*
