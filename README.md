@@ -4,7 +4,7 @@
 
 ```sh
 $ brew install uv
-$ uv pip install Django
+$ uv sync
 ```
 
 ## Commands
@@ -34,6 +34,7 @@ $ uv run python manage.py test [app]
 - [urls.py](https://docs.djangoproject.com/en/6.1/topics/http/urls/)
 - [Django shortcut functions](https://docs.djangoproject.com/en/6.1/topics/http/shortcuts/)
 - [Built-in template tags and filters](https://docs.djangoproject.com/en/6.1/ref/templates/builtins/)
+- Debug toolbar requires a body HTML tag to work as expected
 
 ## Out of scope
 
