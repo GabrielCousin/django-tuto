@@ -44,3 +44,4 @@ $ uv run python manage.py test [app]
 
 - [WSGI](https://wsgi.readthedocs.io/en/latest/what.html)
 - Testing: assert versus self.assert*
+- https://stackoverflow.com/questions/58789733/how-to-make-drf-hyperlinkedmodelserializer-elegantly-work-with-app-name
