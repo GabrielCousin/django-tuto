@@ -27,6 +27,9 @@ $ uv run python manage.py shell
 
 # Run tests
 $ uv run python manage.py test [app]
+
+# Create app
+$ uv run python manage.py startapp [app]
 ```
 
 ## Gotchas

@@ -8,4 +8,5 @@ dependencies = [
     "django>=6.1",
     "django-debug-toolbar>=7.1.1",
     "djangorestframework>=3.18.0",
+    "pygments>=2.21.0",
 ]
